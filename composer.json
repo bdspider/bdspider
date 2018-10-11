@@ -1,0 +1,24 @@
+{
+    "name": "bdspider/bdspider",
+    "description": "Baidu Search",
+    "authors": [
+        {
+            "name": "bdspider",
+            "email": "bspider@126.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3",
+        "jaeger/querylist": "^4.1.2",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BDSpider\\": "src/"
+        }
+    }
+}
